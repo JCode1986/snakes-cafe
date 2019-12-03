@@ -20,32 +20,31 @@ drinks = {
     'unicorn tears' : 0,
 }
 
-# menu = {
-#   'appetizers' : {
-#       'wings' : 0,
-#       'cookies' : 0,
-#       'spring rolls' : 0
-#   },
-#   'entrees' : {
-#       'salmon' : 0,
-#       'steak' : 0,
-#       'meat tornado' : 0,
-#       'a literal garden': 0
-#   },
-#   'desserts' : {
-#       'ice cream' : 0,
-#       'cake' : 0,
-#       'pie' : 0,
-#   },
-#   'drinks' : {
-#       'coffee' : 0,
-#       'tea' : 0,
-#       'unicorn tears' : 0,
-#   },
-# }
-# print(menu)
+# nested dictionary
 
-asterisk = list(range(0, 39))
+menu = {
+  'appetizers' : {
+      'wings' : 0,
+      'cookies' : 0,
+      'spring rolls' : 0
+  },
+  'entrees' : {
+      'salmon' : 0,
+      'steak' : 0,
+      'meat tornado' : 0,
+      'a literal garden': 0
+  },
+  'desserts' : {
+      'ice cream' : 0,
+      'cake' : 0,
+      'pie' : 0,
+  },
+  'drinks' : {
+      'coffee' : 0,
+      'tea' : 0,
+      'unicorn tears' : 0,
+  },
+}
 
 def exit_app():
   print('Thank you. Come Again!')
