@@ -15,3 +15,4 @@
 
 ## Change Log
 12-02-2019 2:30pm - Completed all functionalities, but not DRY.
+12-02-2019 10:00pm - Attempted to refactor code.
