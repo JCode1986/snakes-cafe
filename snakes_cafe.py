@@ -20,51 +20,17 @@ drinks = {
     'unicorn tears' : 0,
 }
 
-# nested dictionary
-
-# menu = {
-#   'appetizers' : {
-#       'wings' : 0,
-#       'cookies' : 0,
-#       'spring rolls' : 0
-#   },
-#   'entrees' : {
-#       'salmon' : 0,
-#       'steak' : 0,
-#       'meat tornado' : 0,
-#       'a literal garden': 0
-#   },
-#   'desserts' : {
-#       'ice cream' : 0,
-#       'cake' : 0,
-#       'pie' : 0,
-#   },
-#   'drinks' : {
-#       'coffee' : 0,
-#       'tea' : 0,
-#       'unicorn tears' : 0,
-#   },
-# }
-
-# menuArray = [menu['appetizers'], menu['entrees'], menu['desserts'], menu['drinks']]
-
-# def checkMenu(order=None):
-#   for i in menuArray:
-#     print(i)
-
-# checkMenu()
-
 def exit_app():
   print('Thank you. Come Again!')
   exit()
 
 def start_up():
-  print('**************************************')
+  print('*' * 38)
   print('**    Welcome to the Snakes Cafe!   **')
   print('**    Please see our menu below.    **')
   print('**')
   print('** To quit at any time, type "quit" **')
-  print('**************************************')
+  print('*' * 38)
   print('')
   print('Appetizers')
   print('----------')
@@ -85,14 +51,14 @@ def start_up():
   print('-------')
   for i in drinks:
     print(i)
-  print('')
+  return ''
   
 print(start_up())
 
 while True:
-  print('***********************************')
+  print('*' * 35)
   print('** What would you like to order? **')
-  print('***********************************')
+  print('*' * 35)
   answer = input()
   if answer == 'quit':
     exit_app()
