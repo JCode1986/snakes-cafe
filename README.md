@@ -1,7 +1,7 @@
 # Snakes Cafe
 
 **Author**: Joseph Hangarter
-**Version**: 1.0.0
+**Version**: 1.0.2
 
 ## Overview
 * When run, the program should print an intro message and the menu for the restaurant
